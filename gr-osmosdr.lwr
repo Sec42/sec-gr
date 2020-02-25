@@ -19,12 +19,17 @@
 
 category: common
 depends:
+- uhd
+- rtl-sdr
+- osmo-sdr
+- hackrf
 - gnuradio
-- scipy
-- gr-osmosdr38
-description: GNU Radio iridium burst detector and demodulator
-#gitbranch: master
-gitbranch: maint-3.8
+- gr-iqbal
+- bladeRF
+- airspy
+- soapysdr
+description: Interface API independent of the underlying radio hardware
+gitbranch: gr-qtgui
 inherit: cmake
-#source: git+https://github.com/muccc/gr-iridium.git
-source: git+https://github.com/bkerler/gr-iridium
+# Let's always build this from source, not binaries
+source: git+https://github.com/Sec42/gr-osmosdr.git
