@@ -29,7 +29,7 @@ depends:
 - qwt6
 - numpy
 - lxml
-- pygtk
+#- pygtk
 - pycairo
 - pyqt5
 - liblog4cpp
@@ -38,6 +38,9 @@ depends:
 - python-click-plugins
 - python-pyqtgraph
 - mako
+- pkg-config
+#- gir1.2-gtk
+#- python3-gi-cairo
 description: Free and open source toolkit for software defined radio
 category: common
 source: git+https://github.com/Sec42/gnuradio.git
