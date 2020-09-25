@@ -2,7 +2,7 @@ Some lwr's pointing to current work
 
 # Initial setup
 pybombs auto-config
-pybombs recipes add  sec-gr git+https://github.com/gnuradio/gr-recipes.git
+pybombs recipes add  sec-gr git+git+https://github.com/Sec42/sec-gr.git
 apt-get install ccache # optional
 
 # Using it
