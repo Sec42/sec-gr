@@ -20,6 +20,7 @@
 category: common
 depends:
 - libsigmf
+- liquid-dsp
 description: Inspectrum
 gitbranch: sigmf-annotations
 inherit: cmake
