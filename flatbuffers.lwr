@@ -19,6 +19,6 @@
 
 category: common
 description: Flatbuffers
-gitbranch: 71aca81ff9
+gitrev: 71aca81ff9
 inherit: cmake
 source: git+https://github.com/google/flatbuffers
