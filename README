@@ -1,10 +1,13 @@
 Some lwr's pointing to current work
 
 # Initial setup
+sudo apt-get install python3-pip
+sudo pip3 install pybombs
+sudo apt-get install ccache # optional
+
 pybombs auto-config
 pybombs recipes add-defaults
 pybombs recipes add  sec-gr git+https://github.com/Sec42/sec-gr.git
-apt-get install ccache # optional
 
 # Using it
 mkdir ~/GR
