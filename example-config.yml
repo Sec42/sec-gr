@@ -1,0 +1,27 @@
+!!omap
+- categories:
+    hardware:
+      forcebuild: true
+    common:
+      forcebuild: true
+- packages:
+    gnuradio:
+      forcebuild: true
+      gitbranch: maint-3.9
+    gqrx:
+      forcebuild: true
+    apache-thrift:
+      optional: true
+    wxpython:
+      optional: true
+    doxygen:
+      optional: true
+    gr-satellites:
+      gitbranch: gr39
+    gr-soapy:
+      source: git+https://gitlab.com/willcode4/gr-soapy
+      gitbranch: maint-3.9
+    gr-xcorrelate:
+      gitbranch: gr39
+    gr-fosphor:
+      gitbranch: master

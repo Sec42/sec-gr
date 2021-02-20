@@ -31,6 +31,7 @@ echo 'PATH=/usr/lib/ccache:${PATH}'
 source setup_env.sh
 
 pybombs recipes update
+cp ~/.pybombs/recipes/sec-gr/example-config.yml .pybombs/config.yml # edit to taste
 pybombs install gnuradio
 pybombs install gr-iridium
 pybombs install inspectrum
