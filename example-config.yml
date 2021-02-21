@@ -8,6 +8,8 @@
     gnuradio:
       forcebuild: true
       gitbranch: maint-3.9
+#      source: git+https://github.com/Sec42/gnuradio.git
+#      gitbranch: good-3.8
     gqrx:
       forcebuild: true
     apache-thrift:
@@ -25,3 +27,12 @@
       gitbranch: gr39
     gr-fosphor:
       gitbranch: master
+    gr-iridium:
+      gitbranch: maint-3.9
+    gr-fcdproplus:
+      forceinstalled: True # Not yet 3.9-compatible
+    gr-osmosdr:
+      vars:
+        config_opt: ' -DENABLE_NONFREE=TRUE '
+#      gitbranch: gr-qtgui
+#      source: git+https://git.osmocom.org/gr-osmosdr
