@@ -17,11 +17,12 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: application
 depends:
 - libsigmf
 - liquid-dsp
+- qt5
 description: Inspectrum
-gitbranch: sigmf-annotations
+gitbranch: master
 inherit: cmake
-source: git+https://github.com/schneider42/inspectrum
+source: git+https://github.com/miek/inspectrum

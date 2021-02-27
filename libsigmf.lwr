@@ -22,6 +22,6 @@ depends:
 - flatbuffers
 - nlohmann_json
 description: LibSigMF
-gitbranch: cleanup
+gitbranch: master
 inherit: cmake
-source: git+https://github.com/Sec42/libsigmf
+source: git+https://github.com/deepsig/libsigmf
