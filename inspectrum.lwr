@@ -23,6 +23,6 @@ depends:
 - liquid-dsp
 - qt5
 description: Inspectrum
-gitbranch: master
+gitbranch: main
 inherit: cmake
 source: git+https://github.com/miek/inspectrum
