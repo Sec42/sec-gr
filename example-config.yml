@@ -20,9 +20,8 @@
       optional: true
     gr-satellites:
       gitbranch: gr39
-    gr-soapy:
-      source: git+https://gitlab.com/willcode4/gr-soapy
-      gitbranch: maint-3.9
+#    soapysdr:
+#      gitbranch: soapy-sdr-0.7.2
     gr-xcorrelate:
       gitbranch: gr39
     gr-fosphor:

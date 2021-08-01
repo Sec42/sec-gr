@@ -9,9 +9,10 @@ pybombs auto-config
 pybombs recipes add-defaults
 pybombs recipes add  sec-gr git+https://github.com/Sec42/sec-gr.git
 
-# Using it
+# Making new prefix
 mkdir ~/GR
 cd ~/GR
+pybombs recipes update
 pybombs prefix init
 ( # Fix pybombs paths
 python=python3
@@ -29,9 +30,11 @@ echo '${PYTHONPATH}'
 echo 'PATH=/usr/lib/ccache:${PATH}'
 ) >>setup_env.sh
 source setup_env.sh
-
-pybombs recipes update
 cp ~/.pybombs/recipes/sec-gr/example-config.yml .pybombs/config.yml # edit to taste
+
+# install / update things
+pybombs recipes update
+pybombs install soapyhackrf soapyrtlsdr # add more to taste
 pybombs install gnuradio
 pybombs install gr-iridium
 pybombs install inspectrum
