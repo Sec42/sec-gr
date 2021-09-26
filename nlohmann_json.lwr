@@ -19,6 +19,6 @@
 
 category: common
 description: nlohmann_json
-gitbranch: v3.7.1
+gitbranch: v3.10.2
 inherit: cmake
 source: git+https://github.com/nlohmann/json.git
