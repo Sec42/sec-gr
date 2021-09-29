@@ -24,3 +24,14 @@ pybombs install soapyhackrf soapyrtlsdr # add more to taste
 pybombs install gnuradio
 pybombs install gr-iridium
 pybombs install inspectrum
+
+### Temporary workaround for python 3.9 problem:
+### - install pybombs from git instead of pip
+(
+pip3 uninstall pybombs
+cd ~
+git clone https://github.com/gnuradio/pybombs.git
+cd pybombs
+python setup.py build
+sudo python setup.py install
+)
