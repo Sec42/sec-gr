@@ -14,7 +14,8 @@ mkdir ~/GR
 cd ~/GR
 pybombs recipes update
 pybombs prefix init
-~/.pybombs/recipes/sec-gr/fixpythonpath.sh >>setup_env.sh
+# ~/.pybombs/recipes/sec-gr/fixpythonpath.sh >>setup_env.sh # needed only on OLD(python2) setups
+echo 'PATH=/usr/lib/ccache:${PATH}' >> setup_env.sh # optional
 source setup_env.sh
 cp ~/.pybombs/recipes/sec-gr/example-config.yml .pybombs/config.yml # edit to taste
 

@@ -12,4 +12,3 @@ done
 done
 done
 echo '${PYTHONPATH}'
-echo 'PATH=/usr/lib/ccache:${PATH}'
