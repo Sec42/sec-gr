@@ -1,0 +1,27 @@
+!!omap
+- categories:
+    hardware:
+      forcebuild: true
+    common:
+      forcebuild: true
+- packages:
+    gnuradio:
+      forcebuild: true
+      gitbranch: maint-3.10
+      vars:
+        config_opt: ' -DENABLE_GNURADIO_RUNTIME=ON -DENABLE_GR_ANALOG=ON'
+    gqrx:
+      forcebuild: true
+    doxygen:
+      optional: true
+    gr-fcdproplus:
+      forceinstalled: True # Not compatible
+#    soapysdr:
+#      gitbranch: soapy-sdr-0.7.2
+    gr-fosphor:
+      gitbranch: master
+    gr-iridium:
+      gitbranch: master
+    gr-osmosdr:
+      vars:
+        config_opt: ' -DENABLE_NONFREE=TRUE '
