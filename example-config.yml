@@ -14,10 +14,6 @@
       forcebuild: true
     doxygen:
       optional: true
-    gr-fcdproplus:
-      forceinstalled: True # Not compatible
-#    soapysdr:
-#      gitbranch: soapy-sdr-0.7.2
     gr-fosphor:
       gitbranch: master
     gr-iridium:
