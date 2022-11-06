@@ -19,7 +19,6 @@
 
 category: application
 depends:
-- libsigmf
 - liquid-dsp
 - qt5
 description: Inspectrum
