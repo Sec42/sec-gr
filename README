@@ -23,4 +23,9 @@ pybombs recipes update
 pybombs install soapyhackrf soapyrtlsdr # add more to taste
 pybombs install gnuradio
 pybombs install gr-iridium
-pybombs install inspectrum
+
+# optional
+pybombs install gr-osmosdr # If your SDR needs osmosdr
+pybombs install gr-fosphor # for "osmocom_fft -F"
+pybombs install inspectrum # to look at recordings
+pybombs install limesuite  # if you have a limesdr
